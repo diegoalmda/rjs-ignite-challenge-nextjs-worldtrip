@@ -1,4 +1,4 @@
-import { Flex, Heading, Text, Stack, Box, Image, useBreakpointValue } from '@chakra-ui/react'
+import { Flex, Heading, Text, Stack, Box, Image, useBreakpointValue, UnorderedList, ListItem } from '@chakra-ui/react'
 import Slider from '../components/Slider'
 
 export default function Home() {
@@ -26,29 +26,37 @@ export default function Home() {
           <Image src='/images/airplane.svg' alt='airplane' boxSize={["81px", "100px", "420px"]}  />
         </Box> }
       </Flex>
-      <Flex justify="space-between" h="60" pl="40" pr="40" mb="20">
-        <Flex flexDir="column" justify="center" alignItems="center">
-          <Image src='/images/cocktail.svg' alt='cocktail' boxSize={["85px"]} pb="4" />
-          <Text as="p" fontSize={['xs', 'lg']} fontWeight={600}>vida noturna</Text>
+      <Flex justify={["center", "center", "center", "space-between"]} h="60" pl={["4", "10", "40"]} pr={["4", "10", "40"]} flexWrap="wrap">
+        <Flex flexDir={["row", "row", "row", "column"]} justify="center" alignItems="center">
+          { isWideVersion && <Image src='/images/cocktail.svg' alt='cocktail' boxSize={["85px"]} pb="4" /> }
+          { !isWideVersion && <Text mr="2" display='inline-block' color='yellow.300' fontSize={["2xl", "4xl", "4xl"]}><span>&#8226;</span></Text>}
+          <Text as="p" display='inline-block' fontSize={['xs', 'lg']} fontWeight={600} mr={["6", "6", "0"]}>vida noturna</Text>
         </Flex>
-        <Flex flexDir="column" justify="center" alignItems="center">
-          <Image src='/images/surf.svg' alt='surf' boxSize={["85px"]} pb="4" />
-          <Text as="p" fontSize={['xs', 'lg']} fontWeight={600}>praia</Text>
+        <Flex flexDir={["row", "row", "row", "column"]} justify="center" alignItems="center">
+          { isWideVersion && <Image src='/images/surf.svg' alt='surf' boxSize={["85px"]} pb="4" /> }
+          { !isWideVersion && <Text mr="2" display='inline-block' color='yellow.300' fontSize={["2xl", "4xl", "4xl"]}><span>&#8226;</span></Text>}
+          <Text as="p" display='inline-block' fontSize={['xs', 'lg']} fontWeight={600} mr={["6", "6", "0"]}>praia</Text>
         </Flex>
-        <Flex flexDir="column" justify="center" alignItems="center" borderBottomWidth='2px' borderColor='gray.700'>
-          <Image src='/images/building.svg' alt='building' boxSize={["85px"]} pb="4" />
-          <Text as="p" fontSize={['xs', 'lg']} fontWeight={600}>moderno</Text>
+        <Flex flexDir={["row", "row", "row", "column"]} justify="center" alignItems="center">
+          { isWideVersion && <Image src='/images/building.svg' alt='building' boxSize={["85px"]} pb="4" /> }
+          { !isWideVersion && <Text mr="2" display='inline-block' color='yellow.300' fontSize={["2xl", "4xl", "4xl"]}><span>&#8226;</span></Text>}
+          <Text as="p" display='inline-block' fontSize={['xs', 'lg']} fontWeight={600} mr={["6", "6", "0"]}>moderno</Text>
         </Flex>
-        <Flex flexDir="column" justify="center" alignItems="center">
-          <Image src='/images/museum.svg' alt='museum' boxSize={["85px"]} pb="4" />
-          <Text as="p" fontSize={['xs', 'lg']} fontWeight={600}>clássico</Text>
+        <Flex flexDir={["row", "row", "row", "column"]} justify="center" alignItems="center">
+          { isWideVersion && <Image src='/images/museum.svg' alt='museum' boxSize={["85px"]} pb="4" /> }
+          { !isWideVersion && <Text mr="2" display='inline-block' color='yellow.300' fontSize={["2xl", "4xl", "4xl"]}><span>&#8226;</span></Text>}
+          <Text as="p" display='inline-block' fontSize={['xs', 'lg']} fontWeight={600} mr={["6", "6", "0"]}>clássico</Text>
         </Flex>
-        <Flex flexDir="column" justify="center" alignItems="center">
-          <Image src='/images/earth.svg' alt='earth' boxSize={["85px"]} pb="4" />
-          <Text as="p" fontSize={['xs', 'lg']} fontWeight={600}>e mais...</Text>
+        <Flex flexDir={["row", "row", "row", "column"]} justify="center" alignItems="center">
+          { isWideVersion && <Image src='/images/earth.svg' alt='earth' boxSize={["85px"]} pb="4" /> }
+          { !isWideVersion && <Text mr="2" display='inline-block' color='yellow.300' fontSize={["2xl", "4xl", "4xl"]}><span>&#8226;</span></Text>}
+          <Text as="p" display='inline-block' fontSize={['xs', 'lg']} fontWeight={600}>e mais...</Text>
         </Flex>
       </Flex>
-      <Flex justify="center" align="center">
+      <Flex alignItems="center" justify="center" mb="14">
+        <Box w={["10", "20"]} borderBottomWidth='2px' borderColor='gray.700'></Box>
+      </Flex>
+      <Flex justify="center" align="center" mb="14">
         <Heading as='h1' line-height="none" textAlign="center" fontSize={['md', '4xl']} fontWeight={500} color="gray.700">
           Vamos nessa?<br />Então escolha seu continente
         </Heading>
