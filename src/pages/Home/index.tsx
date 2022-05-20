@@ -14,7 +14,7 @@ export default function HomeBody() {
         bgRepeat="no-repeat"
         bgSize="cover"
         h={[163, 300]}
-        w="100%"
+        w="100%"        
       >
         <Stack display="flex" flexDir="column" w={["100%", "100%", "100%", "50%", "50%"]} h="100%" spacing="6" justifyContent="center" alignItems="flex-start" pl={["4", "4", "8", "20", "40"]} pr={["4", "4", "10", "10", "10"]}>      
           <Heading as='h1' line-height="none" fontSize={['md', '4xl']} fontWeight={500} color="gray.50">5 Continentes, infinitas possibilidades.</Heading>

@@ -26,7 +26,9 @@ export function Header() {
         position="relative"
       >
         { asPath !== "/" &&
-          <Icon as={IoChevronBack} fontSize={["16", "20", "25"]} position="absolute" left={["4", "16", "40"]} />        
+          <a onClick={() => back()}>
+            <Icon as={IoChevronBack} fontSize={["16", "20", "25"]} position="absolute" left={["4", "16", "40"]} />  
+          </a>
         }
         <Link href="/">
           <a>
