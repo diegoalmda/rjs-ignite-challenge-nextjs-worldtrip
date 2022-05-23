@@ -123,7 +123,7 @@ export default function Continent() {
                         <Heading color="gray.700" fontFamily="barlow" fontSize="20" fontWeight={600}>{city.city}</Heading>
                         <Text color="gray.500" fontFamily="barlow" fontSize="16" fontWeight={500}>{city.country}</Text>
                       </Flex>
-                      <Image src={city.flag} h={30} w={30} alt="bandeira" />
+                      <Image src={city.flag} h={30} w={30} alt="bandeira" borderRadius="50%" />
                     </Flex>
                   </GridItem>
                 )
