@@ -70,7 +70,7 @@ createServer({
               city: 'Lagos',
               country: 'Nigéria',
               image: 'https://images.unsplash.com/photo-1559897752-11f80cef5173?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176',
-              flag: '/images/europa/paises/paris_flag.png',
+              flag: 'https://simg.nicepng.com/png/small/302-3027340_teamlogo-nigeria-flag-circle-png.png',
             },            
           ]          
         },
@@ -85,7 +85,7 @@ createServer({
               city: 'Hong Kong',
               country: 'China',
               image: 'https://images.unsplash.com/photo-1507904309054-5d475df55c14?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1136',
-              flag: '/images/europa/paises/paris_flag.png',
+              flag: 'https://upload.wikimedia.org/wikipedia/commons/a/ae/Circle_Flag_of_the_People%27s_Republic_of_China.svg',
             },
           ]          
         },
@@ -100,7 +100,7 @@ createServer({
               city: 'Rio de Janeiro',
               country: 'Brasil',
               image: 'https://images.unsplash.com/photo-1627697296296-18810d90f298?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1162',
-              flag: '/images/europa/paises/paris_flag.png',
+              flag: 'https://upload.wikimedia.org/wikipedia/commons/d/d4/Brazilian_Flag_-_round.svg',
             },
           ]          
         },
@@ -115,7 +115,7 @@ createServer({
               city: 'Washington',
               country: 'Estados Unidos',
               image: 'https://images.unsplash.com/photo-1616697158585-b815801afeb9?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1092',
-              flag: '/images/europa/paises/paris_flag.png',
+              flag: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/United-states_flag_icon_round.svg/1024px-United-states_flag_icon_round.svg.png',
             },
           ]          
         },
@@ -130,7 +130,7 @@ createServer({
               city: 'Sidny',
               country: 'Austrália',
               image: 'https://images.unsplash.com/photo-1552826768-0638caedbd75?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160',
-              flag: '/images/europa/paises/paris_flag.png',
+              flag: 'https://markblasdale.com/wp-content/uploads/2018/09/Australia-Flag-Round-PNG.png',
             },
           ]          
         },
