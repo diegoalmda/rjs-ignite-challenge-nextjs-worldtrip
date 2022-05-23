@@ -1,42 +1,66 @@
 import { GetServerSideProps } from "next";
 import { getSession } from "next-auth/client";
 import Head from "next/head";
+import { api } from "../../services/api";
 
-export default function Continent({ continent }) {
+interface ContinentProps {
+  continent: {
+    id: number;
+    name: string;
+    slug: string;
+    backgroundImage: string;
+    description: string;
+    cities: {
+      city: string;
+      country: string;
+      image: string;
+      flag: string;
+    }[];    
+  }
+}
+
+export default function Continent({ continent }: ContinentProps) {
+  async function loadData() {
+  //   const response = await api.get(`/continents`);
+  //   console.log(response.data.continents)
+  const response = await api.get(`/continents/europa`);
+  const continent = {...response.data};
+  console.log(continent)
+  }
+
+  // loadData()
+
+
   return (
     <>
-      <h1>sdklfhnas</h1>
+      <Head>
+        <title> | WorldTrip</title>
+      </Head>
 
-      
+      <main>
+        <article>
+          <h1>sdfsd</h1>
+        </article>
+      </main>
     </>
   )
 }
 
-export const getServerSideProps: GetServerSideProps = async ({ req, params }) => {
-  const session = await getSession({ req })
-  const { slug } = params;
+// export const getServerSideProps: GetServerSideProps = async ({ params }) => {
+  
+//   const { slug } = params;
 
-  if(!session?.activeSubscription) {
-    return {
-      redirect: {
-        destination: '/',
-        permanent: false
-      }
-    }
-  }
+//   const response = await api.get(`/continents/${slug}`);
 
-  const response = 
-    await fetch('http://localhost:3000/api/continents')
-      .then(response => response.json())
-      .then(data => console.log(data));
+//   console.log(response.data)
 
-  const continent = {
-    slug,    
-  }
+//   // const objectBySlug = response.data.continents.find(continent => continent.slug === slug);
 
-  return {
-    props: {
-      continent,
-    }
-  }
-}
+//   const continent = {...response.data};
+
+//   return {
+//     props: {
+//       continent,
+//     }
+//   }
+// }

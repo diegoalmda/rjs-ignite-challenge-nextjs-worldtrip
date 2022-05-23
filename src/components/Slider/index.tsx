@@ -22,7 +22,7 @@ export default function Slider() {
       >
         <SwiperSlide>
           <SliderItem image="url(/images/slider/europe.png)">
-            <Link href="/continent/europe">
+            <Link href="/continent/europa">
               <a>
                 <Heading as='h1' line-height="none" fontSize={['md', '4xl']} fontWeight={500} color="gray.50">Europa</Heading>
                 <Text as="p" fontSize={['xs', 'lg']} fontWeight={600} color="gray.100">O continente mais antigo.</Text>
@@ -62,7 +62,7 @@ export default function Slider() {
         </SwiperSlide>          
         <SwiperSlide>
           <SliderItem image="url(/images/slider/southamerica.png)">
-            <Link href="/continent/southamerica">
+            <Link href="/continent/sulamerica">
               <a>
                 <Heading as='h1' line-height="none" fontSize={['md', '4xl']} fontWeight={500} color="gray.50">América do Sul</Heading>
                 <Text as="p" fontSize={['xs', 'lg']} fontWeight={600} color="gray.100">O continente das belezas naturais.</Text>
@@ -72,7 +72,7 @@ export default function Slider() {
         </SwiperSlide>          
         <SwiperSlide>
           <SliderItem image="url(/images/slider/northamerica.png)">
-            <Link href="/continent/northamerica">
+            <Link href="/continent/norteamerica">
               <a>
                 <Heading as='h1' line-height="none" fontSize={['md', '4xl']} fontWeight={500} color="gray.50">América do Norte</Heading>
                 <Text as="p" fontSize={['xs', 'lg']} fontWeight={600} color="gray.100">O continente onde os negócios acontecem.</Text>
