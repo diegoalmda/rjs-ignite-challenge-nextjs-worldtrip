@@ -24,14 +24,38 @@ createServer({
           id: 1,
           name: 'Europa',
           slug: 'europa',
-          backgroundImage: '',
+          backgroundImage: '/images/europa/back.png',
           description: 'A Europa é, por convenção, um dos seis continentes do mundo. Compreendendo a península ocidental da Eurásia, a Europa geralmente divide-se da Ásia a leste pela divisória de águas dos montes Urais, o rio Ural, o mar Cáspio, o Cáucaso, e o mar Negro a sudeste',
           cities: [
             {
               city: 'Londres',
               country: 'Reino Unido',
-              image: '',
-              flag: ''
+              image: '/images/europa/paises/londres.png',
+              flag: '/images/europa/paises/londres_flag.png',
+            },
+            {
+              city: 'Paris',
+              country: 'França',
+              image: '/images/europa/paises/paris.png',
+              flag: '/images/europa/paises/paris_flag.png',
+            },
+            {
+              city: 'Roma',
+              country: 'Itália',
+              image: '/images/europa/paises/roma.png',
+              flag: '/images/europa/paises/roma_flag.png',
+            },
+            {
+              city: 'Praga',
+              country: 'República Tcheca',
+              image: '/images/europa/paises/praga.png',
+              flag: '/images/europa/paises/praga_flag.png',
+            },
+            {
+              city: 'Amsterdã',
+              country: 'Holanda',
+              image: '/images/europa/paises/amsterda.png',
+              flag: '/images/europa/paises/amsterda_flag.png',
             },
           ]          
         },
@@ -39,14 +63,38 @@ createServer({
           id: 2,
           name: 'África',
           slug: 'africa',
-          backgroundImage: '',
+          backgroundImage: '/images/europa/back.png',
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
           cities: [
             {
               city: 'Lagos',
               country: 'Nigéria',
-              image: '',
-              flag: ''
+              image: '/images/europa/paises/paris.png',
+              flag: '/images/europa/paises/paris_flag.png',
+            },
+            {
+              city: 'Paris',
+              country: 'França',
+              image: '/images/europa/paises/paris.png',
+              flag: '/images/europa/paises/paris_flag.png',
+            },
+            {
+              city: 'Roma',
+              country: 'Itália',
+              image: '/images/europa/paises/roma.png',
+              flag: '/images/europa/paises/roma_flag.png',
+            },
+            {
+              city: 'Praga',
+              country: 'República Tcheca',
+              image: '/images/europa/paises/praga.png',
+              flag: '/images/europa/paises/praga_flag.png',
+            },
+            {
+              city: 'Amsterdã',
+              country: 'Holanda',
+              image: '/images/europa/paises/amsterda.png',
+              flag: '/images/europa/paises/amsterda_flag.png',
             },
           ]          
         },

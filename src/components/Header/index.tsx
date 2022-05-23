@@ -27,7 +27,7 @@ export function Header() {
       >
         { asPath !== "/" &&
           <a onClick={() => back()}>
-            <Icon as={IoChevronBack} fontSize={["16", "20", "25"]} position="absolute" left={["4", "16", "40"]} />  
+            <Icon as={IoChevronBack} fontSize={["16", "20", "25"]} position="absolute" left={["4", "16", "40"]} cursor="pointer" />  
           </a>
         }
         <Link href="/">
