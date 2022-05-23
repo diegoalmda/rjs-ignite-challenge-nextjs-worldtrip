@@ -63,38 +63,74 @@ createServer({
           id: 2,
           name: 'África',
           slug: 'africa',
-          backgroundImage: '/images/europa/back.png',
+          backgroundImage: 'https://images.unsplash.com/photo-1523805009345-7448845a9e53?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2972',
           description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
           cities: [
             {
               city: 'Lagos',
               country: 'Nigéria',
-              image: '/images/europa/paises/paris.png',
+              image: 'https://images.unsplash.com/photo-1559897752-11f80cef5173?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1176',
+              flag: '/images/europa/paises/paris_flag.png',
+            },            
+          ]          
+        },
+        {
+          id: 3,
+          name: 'Ásia',
+          slug: 'asia',
+          backgroundImage: 'https://images.unsplash.com/photo-1574236170878-f66e35f83207?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2970',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+          cities: [
+            {
+              city: 'Hong Kong',
+              country: 'China',
+              image: 'https://images.unsplash.com/photo-1507904309054-5d475df55c14?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1136',
               flag: '/images/europa/paises/paris_flag.png',
             },
+          ]          
+        },
+        {
+          id: 4,
+          name: 'América do Sul',
+          slug: 'sulamerica',
+          backgroundImage: 'https://images.unsplash.com/photo-1619546952812-520e98064a52?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1742',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+          cities: [
             {
-              city: 'Paris',
-              country: 'França',
-              image: '/images/europa/paises/paris.png',
+              city: 'Rio de Janeiro',
+              country: 'Brasil',
+              image: 'https://images.unsplash.com/photo-1627697296296-18810d90f298?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1162',
               flag: '/images/europa/paises/paris_flag.png',
             },
+          ]          
+        },
+        {
+          id: 5,
+          name: 'América do Norte',
+          slug: 'norteamerica',
+          backgroundImage: 'https://images.unsplash.com/photo-1546083381-2bed38b42cac?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+          cities: [
             {
-              city: 'Roma',
-              country: 'Itália',
-              image: '/images/europa/paises/roma.png',
-              flag: '/images/europa/paises/roma_flag.png',
+              city: 'Washington',
+              country: 'Estados Unidos',
+              image: 'https://images.unsplash.com/photo-1616697158585-b815801afeb9?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1092',
+              flag: '/images/europa/paises/paris_flag.png',
             },
+          ]          
+        },
+        {
+          id: 6,
+          name: 'Oceania',
+          slug: 'oceania',
+          backgroundImage: 'https://images.unsplash.com/photo-1622732718352-d4c89c582f7c?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1788',
+          description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+          cities: [
             {
-              city: 'Praga',
-              country: 'República Tcheca',
-              image: '/images/europa/paises/praga.png',
-              flag: '/images/europa/paises/praga_flag.png',
-            },
-            {
-              city: 'Amsterdã',
-              country: 'Holanda',
-              image: '/images/europa/paises/amsterda.png',
-              flag: '/images/europa/paises/amsterda_flag.png',
+              city: 'Sidny',
+              country: 'Austrália',
+              image: 'https://images.unsplash.com/photo-1552826768-0638caedbd75?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1160',
+              flag: '/images/europa/paises/paris_flag.png',
             },
           ]          
         },
